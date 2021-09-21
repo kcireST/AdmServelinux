@@ -1,0 +1,16 @@
+zone "Batatinha.lan" {
+        type master;
+        file "/etc/bind/db.Batatinha.lan";
+};
+zone "30.15.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.30.15.168.192";
+};
+zone "2Batatinha.lan" {
+        type master;
+        file "/etc/bind/db.2Batatinha.lan";
+};
+zone "50.15.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.30.15.168.192";
+};
